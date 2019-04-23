@@ -1,4 +1,5 @@
 # Write your code here.
+<<<<<<< HEAD
 def line(array) # this was the one I figured out
   if array.length >= 1
     farray = []
@@ -42,4 +43,18 @@ def now_serving(line)
     puts "Currently serving #{line[0]}."
     line.shift
   end
+=======
+def line()
+    katz_deli = []
+    
+    
+end
+
+def line(katz_deli, other_deli)
+  puts "The line is currently empty." if katz_deli.empty? 
+  elsif
+  other_deli = ["Logan", "Avi", "Spencer"]
+    puts "The line is currently: 1. Logan 2. Avi 3. Spencer"
+ 
+>>>>>>> f42c04438c6c4dde44fcb4deda98e8e2d6a3d7fa
 end
